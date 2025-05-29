@@ -1,0 +1,17 @@
+# Use official Python base image
+FROM python:3.10-slim
+
+# Set working directory inside container
+WORKDIR /app
+
+# Copy requirements.txt and install dependencies
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy all your project files
+COPY . .
+
+# Set entrypoint for your CLI assistant
+ENTRYPOINT ["python", "cli/main.py"]
+
