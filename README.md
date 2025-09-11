@@ -71,40 +71,28 @@ Edit
 
 ### 1. Clone the repository:
 
-```bash
+
 git clone https://github.com/yourusername/dockerized-ai-cli-assistant.git
 cd dockerized-ai-cli-assistant
 2. Create and activate virtual environment:
-bash
-Copy
-Edit
+
 python3 -m venv venv
 source venv/bin/activate  # Linux or WSL
 3. Install dependencies:
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 4. Run the assistant:
-bash
-Copy
-Edit
+
 python cli/main.py
 🐳 Run with Docker (Recommended)
 1. Build the Docker image:
-bash
-Copy
-Edit
+
 docker build -t dockerized-ai-cli-assistant .
 2. Run the container:
-bash
-Copy
-Edit
+
 docker run -it --rm dockerized-ai-cli-assistant
 ✨ Example Commands
-bash
-Copy
-Edit
+
 >>> create a new git branch called feature-login
 ✅ Git branch 'feature-login' created successfully.
 
