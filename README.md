@@ -72,7 +72,7 @@ Edit
 ### 1. Clone the repository:
 
 
-git clone https://github.com/yourusername/dockerized-ai-cli-assistant.git
+git clone https://github.com/yaksha04/dockerized-ai-cli-assistant
 cd dockerized-ai-cli-assistant
 2. Create and activate virtual environment:
 
